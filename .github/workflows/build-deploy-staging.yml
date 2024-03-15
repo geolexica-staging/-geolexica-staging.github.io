@@ -31,7 +31,7 @@ jobs:
     - name: Prepare environment props
       id: prepare
       run: |
-        echo "environment-url=https://isotc211.geolexica.org/staging" >> $GITHUB_OUTPUT
+        echo "environment-url=https://geolexica-staging.github.io" >> $GITHUB_OUTPUT
         echo "environment-name=staging" >> $GITHUB_OUTPUT
 
     - name: Checkout repository
